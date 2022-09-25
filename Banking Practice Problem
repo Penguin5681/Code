@@ -65,11 +65,16 @@ void showBAL(double balance) {
                 cout << "Enter the withdrawal amount: ";
                     cin >> amount;
 
-                    if (amount < balance) {
-                        return amount;
-                    }   
-                        else {
-                            cout << "Bro you can't withdraw more than you have :/" << endl;
+                    if (amount > balance) {
+                        cout << "Bro you can't withdraw more than you have :/" << endl;
                             return 0;
+                       
+                    }   
+                        else if (amount < 0) {
+                            cout << "Invalid Amount!" << endl;
+                                return 0;
                         }
+                            else {
+                                return amount;
+                            }
         }
