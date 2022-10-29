@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+
+signed main(void) {
+    int T;
+    std::cin >> T;
+    int A, B;
+        while(T--) {
+            std::cin >> A >> B;
+            if (B % A == 0) {
+                std::cout << "YES\n";
+            }
+            else if (B > (2 * A)) {
+                std::cout << "YES\n";
+            }
+            else {
+                std::cout << "NO\n";
+            }
+        }
+}
