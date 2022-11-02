@@ -32,6 +32,6 @@ int PrefixSolve(std::string s) {
 }
 
 signed main(void) {
-    std::cout << PrefixSolve("-+7*45+20");
+    std::cout << PrefixSolve(" ");
         
 }
