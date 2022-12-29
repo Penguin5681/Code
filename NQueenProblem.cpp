@@ -1,3 +1,8 @@
+/*
+    Author: @thechillguy69
+    Created on: 29/12/2022 16:02
+*/
+
 #include <bits/stdc++.h>
 
 bool isSafe(int **Array, int x, int y, int n) {
